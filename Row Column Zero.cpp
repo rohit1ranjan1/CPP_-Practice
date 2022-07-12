@@ -36,20 +36,22 @@ int main(){
         for(int j=0;j<3;j++)
         cin>>mat[i][j];
     }
+    cout<<"\nWe have the matrix:";
     display(mat);
     rowColumnZero(mat);
-    cout<<"\nNew Matrix after row and column 0:";
+    cout<<"\nNew Matrix after row and column 0 is:";
     display(mat);
     return 0;
 }
 /*
 Enter the matrix:
 1 2 3 4 0 5 6 7 8 9
+We have the matrix:
 1 2 3 
 4 0 5 
 6 7 8 
 New Matrix after row and column 0 is:
 1 0 3 
 0 0 0 
-6 0 8 
+6 0 8
 */
