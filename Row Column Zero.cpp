@@ -65,4 +65,16 @@ New Matrix after row and column 0 is:
 0 0 0 
 0 1 1 
 0 1 1
+
+/tmp/8KQckmygXI.o
+Enter the matrix:
+1 0 1 1 1 1 1 1 1
+We have the matrix:
+1 0 1 
+1 1 1 
+1 1 1 
+New Matrix after row and column 0 is:
+0 0 0 
+1 0 1 
+1 0 1 
 */
