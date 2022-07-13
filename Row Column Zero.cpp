@@ -54,4 +54,15 @@ New Matrix after row and column 0 is:
 1 0 3 
 0 0 0 
 6 0 8
+
+Enter the matrix:
+0 1 1 1 1 1 1 1 1
+We have the matrix:
+0 1 1 
+1 1 1 
+1 1 1 
+New Matrix after row and column 0 is:
+0 0 0 
+0 1 1 
+0 1 1
 */
