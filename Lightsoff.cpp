@@ -70,3 +70,42 @@ Total distance travelled is: 2
 Enter the number of street lights from origin: 5
 Total distance travelled is: 20
 */
+
+#include<bits/stdc++.h>
+using namespace std;
+void lightsoff(int n){
+    int sum=0,i=0;
+    sum=n+n;
+    while(i<n){
+        n--;
+        sum=sum+(n-i);
+        //cout<<" "<<sum;
+        i++;
+        if(i<n){
+        sum=sum+(n-i);
+        //cout<<" "<<sum;
+        }
+    }
+    cout<<"Total distance travelled is: "<<sum<<endl;
+}
+int main(){
+    int n;
+    cout<<"Enter the no. of test cases: ";
+    cin>>n;
+    for(int i=0;i<=n;i++){
+        cout<<i+1<<". ";
+    cout<<"Enter the number of street lights from origin: ";
+    cin>>n;
+    lightsoff(n);
+    }
+    return 0;
+}
+/*
+Enter the no. of test cases: 3
+1. Enter the number of street lights from origin: 5
+Total distance travelled is: 20
+2. Enter the number of street lights from origin: 2
+Total distance travelled is: 5
+3. Enter the number of street lights from origin: 1
+Total distance travelled is: 2
+*/
