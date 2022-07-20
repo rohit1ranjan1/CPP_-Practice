@@ -49,7 +49,7 @@ void lightsoff(int n){
         //cout<<" "<<sum;
         i++;
         if(i<n){
-        sum=sum+((n-i)-i);
+        sum=sum+(n-i);
         //cout<<" "<<sum;
         }
     }
@@ -66,4 +66,7 @@ int main(){
 /*
 Enter the number of street lights from origin: 1
 Total distance travelled is: 2
+
+Enter the number of street lights from origin: 5
+Total distance travelled is: 20
 */
