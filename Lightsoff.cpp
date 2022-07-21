@@ -37,7 +37,8 @@ Testcase #2 You are initially at (0, 0) Right most on-light is (2, 0). Distance 
 Now you are at (0, 0) Right most on-light is (1, 0). Distance = 1. Now you are at (1, 0) and all lights are turned off. Total distance walked = 5.
 
 */
-//Single test case code
+//Single test case input code
+
 #include<bits/stdc++.h>
 using namespace std;
 void lightsoff(int n){
@@ -71,6 +72,8 @@ Enter the number of street lights from origin: 5
 Total distance travelled is: 20
 */
 
+//n test cases input code
+ 
 #include<bits/stdc++.h>
 using namespace std;
 void lightsoff(int n){
