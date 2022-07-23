@@ -34,3 +34,30 @@ Output
 3
 5
 */
+
+
+#include<bits/stdc++.h>
+using namespace std;
+void checkPrime(int p){
+    if(p==1)
+        return;
+    for(int i=2;i<p;i++){
+        if(p%i==0)
+        return;
+    }
+    cout<<p<<endl;
+    
+}
+int main() {
+    int t,m,n;
+    cin>>t;
+    for(int i=0;i<t;i++){
+        cin>>m;
+        cin>>n;
+        for(int j=m;j<=n;j++){
+            checkPrime(j);
+        }
+        cout<<endl;
+    }
+	return 0;
+}
