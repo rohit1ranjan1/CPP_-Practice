@@ -34,3 +34,42 @@ Output
 0.500000
 1.000000
 */
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+void win(){
+    float r,g,win;
+    cout<<"Enter the number of red balls and green balls respectively:";
+    cin>>r;
+    cin>>g;
+    if(r==0){
+    cout<<1<<endl;
+    return;
+    }
+    win=r/(r+g);
+    cout<<win<<endl;
+}
+int main(){
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        win();
+    }
+   
+    return 0;
+}
+
+/*
+3
+Enter the number of red balls and green balls respectively:2
+1
+0.666667
+Enter the number of red balls and green balls respectively:1
+1
+0.5
+Enter the number of red balls and green balls respectively:10
+0
+1
+*/
