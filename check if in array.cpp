@@ -67,4 +67,15 @@ Array Taken!
 0
 NO!
 1
+
+5
+10
+20
+30
+40
+50
+Array Taken!
+25
+NO!
+20
 */
