@@ -34,4 +34,16 @@ int main() {
 4 6
 6 7
 5
+
+vector<int> A{3,3,3,2,3,2,2};
+    int pairs=countPairs(A,2);
+    
+1 2
+2 3
+2 5
+4 6
+4 7
+6 7
+6
+    
 */
