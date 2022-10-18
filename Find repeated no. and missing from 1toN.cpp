@@ -1,4 +1,8 @@
-// Online C++ compiler to run C++ program online
+// Dakota is a teacher in a school with N students. She decided to number her students from 1 to N. 
+//After finishing the task, she came to know that she has unknowingly missed a number and counted another number twice.
+//Since there are a large number of students in the school, she is not able to check manually. Find those two required numbers.
+
+
 #include <iostream>
 using namespace std;
 int findDouble(int a[], int n){
