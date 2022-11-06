@@ -50,3 +50,7 @@ int main(){
     int power=partition(A,5);
     cout<<power;
 }
+
+/*
+
+*/
